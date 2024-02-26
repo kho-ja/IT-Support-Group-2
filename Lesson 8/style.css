@@ -1,0 +1,69 @@
+.box {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  /* margin: 8px; */
+}
+
+.wrapper {
+  background-color: aqua;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+
+  height: 400px;
+}
+
+.flex-box {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.header {
+  display: flex;
+  gap: 8px;
+}
+.header div {
+  background-color: pink;
+  height: 100px;
+  width: 100%;
+}
+.main {
+  display: flex;
+  gap: 8px;
+  height: 100%;
+}
+
+.center {
+  background-color: grey;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center div {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+}
+
+.right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.right div {
+  background-color: green;
+  width: 100%;
+  height: 100px;
+}

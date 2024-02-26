@@ -1,0 +1,85 @@
+/* init */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Montserrat;
+}
+
+/* navigation */
+.nav {
+  background-color: #000;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+.nav ul {
+  display: flex;
+  padding: 20px 30px;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav img {
+  width: 40px;
+  height: auto;
+}
+
+/* main */
+main {
+  background-image: url(./img/background.png);
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+.center {
+  padding: 40px;
+  background-color: #000;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+main h1 {
+  color: #fd7d54;
+  text-transform: lowercase;
+  letter-spacing: 15px;
+  font-size: 45px;
+}
+
+main .cards {
+  display: flex;
+  gap: 30px;
+}
+main .card {
+  border: 3px solid #fff;
+  padding: 20px;
+}
+main .circle {
+  width: 100px;
+  height: 100px;
+  background-color: #c90a47;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: inset 6px -3px 4px #8e0833, inset -3px 3px 7px 1px #ffffff56;
+}
+.card:nth-child(2) .circle,
+.card:nth-child(3) .circle {
+  background-image: url(./img/sparkle.png);
+  background-repeat: no-repeat;
+  background-position: right 10px top 10px;
+}
+.card:nth-child(3) .circle {
+  /* background-position: right 5px top 5px; */
+  background-image: url(./img/plus.png);
+  background-size: 40px;
+}
